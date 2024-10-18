@@ -180,7 +180,7 @@ nav {
   max-height: 50%;
 
   opacity: .25; /* Adjust this value to make the favicon more or less visible */
-  filter: invert();  
+
 }
 
 .logo {
