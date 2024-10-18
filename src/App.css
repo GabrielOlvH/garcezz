@@ -104,8 +104,7 @@ body, html {
   align-items: center;
   padding: 20px;
   box-sizing: border-box;
-  
-  color: white;
+
 }
 
 
@@ -136,30 +135,27 @@ nav {
   letter-spacing: 2px;
   cursor: pointer;
   background: none;
-  color: #F6F3E3;
+  color: var(--secondary-color);
   
   transition: background-color 0.3s, color 0.3s;
 }
 
 .service-button:hover {
-  
-  background-color: #E7DFD4;
-  
-  color: #917B60;
+  background-color: var(--highlight);
+  color: var(--primary-color);
 }
 
 .service-button-outline {
   
   display: flex;
   flex: 1 1 auto;
-  border: 1px solid #E7DFD4;
+  border: 1px solid var(--highlight);
   padding: 0.3rem;
 }
 
 .service-content {
   max-width: 800px;
   margin: 0 auto;
-  background-color: rgba(0, 0, 0, 0.7);
   padding: 20px;
   border-radius: 8px;
 }
@@ -196,7 +192,7 @@ nav {
   transform: translateY(-50%);
   
 
-  background: url('/public/logo4.png') no-repeat;
+  background: var(--logo);
   background-size: contain;
 }
 
@@ -211,5 +207,5 @@ nav {
 
 .social-media svg {
   width: 32px;
-  fill: #F6F3E3;
+  fill: var(--highlight);
 }
