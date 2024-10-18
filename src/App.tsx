@@ -89,7 +89,7 @@ function App() {
         ))}
       </div>
       <div className="favicon-container">
-        <img draggable={false} src="/favicon.png" alt="Favicon" className="favicon" />
+        <img draggable={false} src="/favicon2.png" alt="Favicon" className="favicon" />
       </div>
       <div className="content">
         <header className="banner">

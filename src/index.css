@@ -8,10 +8,10 @@
 
 :root {
 
-  --primary-color:  #917B60;
-  --secondary-color: #F6F3E3;
-  --highlight: #E7DFD4;
-  --logo: url('/public/logo4.png') no-repeat;
+  --primary-color:  #F6F3E3;
+  --secondary-color: #917B60;
+  --highlight: #917B60;
+  --logo: url('/public/logo3.png') no-repeat;
 
 
   font-family: "danh-da";
